@@ -2,7 +2,7 @@ package param
 
 import (
 	"encoding/json"
-	"github.com/stainless-sdks/ordersapi-go/internal/encoding/json/sentinel"
+	"github.com/rameshsunkara/orders-sdk/internal/encoding/json/sentinel"
 	"reflect"
 )
 

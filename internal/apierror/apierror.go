@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/stainless-sdks/ordersapi-go/internal/apijson"
-	"github.com/stainless-sdks/ordersapi-go/packages/respjson"
+	"github.com/rameshsunkara/orders-sdk/internal/apijson"
+	"github.com/rameshsunkara/orders-sdk/packages/respjson"
 )
 
 // Error represents an error that originates from the API, i.e. when a request is

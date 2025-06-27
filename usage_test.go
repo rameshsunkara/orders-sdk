@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stainless-sdks/ordersapi-go"
-	"github.com/stainless-sdks/ordersapi-go/internal/testutil"
-	"github.com/stainless-sdks/ordersapi-go/option"
+	"github.com/rameshsunkara/orders-sdk"
+	"github.com/rameshsunkara/orders-sdk/internal/testutil"
+	"github.com/rameshsunkara/orders-sdk/option"
 )
 
 func TestUsage(t *testing.T) {

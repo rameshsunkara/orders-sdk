@@ -1,8 +1,8 @@
 package paramutil
 
 import (
-	"github.com/stainless-sdks/ordersapi-go/packages/param"
-	"github.com/stainless-sdks/ordersapi-go/packages/respjson"
+	"github.com/rameshsunkara/orders-sdk/packages/param"
+	"github.com/rameshsunkara/orders-sdk/packages/respjson"
 )
 
 func AddrIfPresent[T comparable](v param.Opt[T]) *T {
