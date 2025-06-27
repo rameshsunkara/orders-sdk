@@ -1,7 +1,7 @@
 package apijson
 
 import (
-	"github.com/stainless-sdks/ordersapi-go/packages/respjson"
+	"github.com/rameshsunkara/orders-sdk/packages/respjson"
 	"reflect"
 )
 

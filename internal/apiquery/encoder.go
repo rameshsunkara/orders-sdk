@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stainless-sdks/ordersapi-go/packages/param"
+	"github.com/rameshsunkara/orders-sdk/packages/param"
 )
 
 var encoders sync.Map // map[reflect.Type]encoderFunc

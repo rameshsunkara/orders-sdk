@@ -3,8 +3,8 @@ package respjson_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/stainless-sdks/ordersapi-go/internal/apijson"
-	rj "github.com/stainless-sdks/ordersapi-go/packages/respjson"
+	"github.com/rameshsunkara/orders-sdk/internal/apijson"
+	rj "github.com/rameshsunkara/orders-sdk/packages/respjson"
 	"reflect"
 	"testing"
 )

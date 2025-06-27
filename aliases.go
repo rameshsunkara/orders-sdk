@@ -3,8 +3,8 @@
 package ordersapi
 
 import (
-	"github.com/stainless-sdks/ordersapi-go/internal/apierror"
-	"github.com/stainless-sdks/ordersapi-go/packages/param"
+	"github.com/rameshsunkara/orders-sdk/internal/apierror"
+	"github.com/rameshsunkara/orders-sdk/packages/param"
 )
 
 // aliased to make [param.APIUnion] private when embedding

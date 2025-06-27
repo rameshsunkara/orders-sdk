@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stainless-sdks/ordersapi-go/packages/param"
+	"github.com/rameshsunkara/orders-sdk/packages/param"
 )
 
 type Struct struct {

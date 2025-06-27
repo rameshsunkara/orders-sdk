@@ -2,7 +2,7 @@ package param_test
 
 import (
 	"encoding/json"
-	"github.com/stainless-sdks/ordersapi-go/packages/param"
+	"github.com/rameshsunkara/orders-sdk/packages/param"
 	"testing"
 )
 

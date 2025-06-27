@@ -3,8 +3,8 @@ package apijson_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/stainless-sdks/ordersapi-go/internal/apijson"
-	"github.com/stainless-sdks/ordersapi-go/packages/param"
+	"github.com/rameshsunkara/orders-sdk/internal/apijson"
+	"github.com/rameshsunkara/orders-sdk/packages/param"
 	"reflect"
 	"testing"
 )

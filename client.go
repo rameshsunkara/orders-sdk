@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/stainless-sdks/ordersapi-go/internal/requestconfig"
-	"github.com/stainless-sdks/ordersapi-go/option"
+	"github.com/rameshsunkara/orders-sdk/internal/requestconfig"
+	"github.com/rameshsunkara/orders-sdk/option"
 )
 
 // Client creates a struct with services and top level methods that help with

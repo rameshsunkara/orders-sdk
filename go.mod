@@ -1,4 +1,4 @@
-module github.com/stainless-sdks/ordersapi-go
+module github.com/rameshsunkara/orders-sdk
 
 go 1.21
 

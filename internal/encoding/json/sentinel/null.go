@@ -1,7 +1,7 @@
 package sentinel
 
 import (
-	"github.com/stainless-sdks/ordersapi-go/internal/encoding/json/shims"
+	"github.com/rameshsunkara/orders-sdk/internal/encoding/json/shims"
 	"reflect"
 	"sync"
 )
