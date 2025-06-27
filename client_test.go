@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stainless-sdks/ordersapi-go"
-	"github.com/stainless-sdks/ordersapi-go/internal"
-	"github.com/stainless-sdks/ordersapi-go/option"
+	"github.com/rameshsunkara/orders-sdk"
+	"github.com/rameshsunkara/orders-sdk/internal"
+	"github.com/rameshsunkara/orders-sdk/option"
 )
 
 type closureTransport struct {

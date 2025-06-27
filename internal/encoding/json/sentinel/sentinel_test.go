@@ -1,8 +1,8 @@
 package sentinel_test
 
 import (
-	"github.com/stainless-sdks/ordersapi-go/internal/encoding/json/sentinel"
-	"github.com/stainless-sdks/ordersapi-go/packages/param"
+	"github.com/rameshsunkara/orders-sdk/internal/encoding/json/sentinel"
+	"github.com/rameshsunkara/orders-sdk/packages/param"
 	"reflect"
 	"slices"
 	"testing"

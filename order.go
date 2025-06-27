@@ -11,12 +11,12 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/stainless-sdks/ordersapi-go/internal/apijson"
-	"github.com/stainless-sdks/ordersapi-go/internal/apiquery"
-	"github.com/stainless-sdks/ordersapi-go/internal/requestconfig"
-	"github.com/stainless-sdks/ordersapi-go/option"
-	"github.com/stainless-sdks/ordersapi-go/packages/param"
-	"github.com/stainless-sdks/ordersapi-go/packages/respjson"
+	"github.com/rameshsunkara/orders-sdk/internal/apijson"
+	"github.com/rameshsunkara/orders-sdk/internal/apiquery"
+	"github.com/rameshsunkara/orders-sdk/internal/requestconfig"
+	"github.com/rameshsunkara/orders-sdk/option"
+	"github.com/rameshsunkara/orders-sdk/packages/param"
+	"github.com/rameshsunkara/orders-sdk/packages/respjson"
 )
 
 // OrderService contains methods and other services that help with interacting with

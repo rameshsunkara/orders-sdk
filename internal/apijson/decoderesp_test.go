@@ -2,8 +2,8 @@ package apijson_test
 
 import (
 	"encoding/json"
-	"github.com/stainless-sdks/ordersapi-go/internal/apijson"
-	"github.com/stainless-sdks/ordersapi-go/packages/respjson"
+	"github.com/rameshsunkara/orders-sdk/internal/apijson"
+	"github.com/rameshsunkara/orders-sdk/packages/respjson"
 	"testing"
 )
 

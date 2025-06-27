@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stainless-sdks/ordersapi-go/internal"
-	"github.com/stainless-sdks/ordersapi-go/internal/apierror"
-	"github.com/stainless-sdks/ordersapi-go/internal/apiform"
-	"github.com/stainless-sdks/ordersapi-go/internal/apiquery"
+	"github.com/rameshsunkara/orders-sdk/internal"
+	"github.com/rameshsunkara/orders-sdk/internal/apierror"
+	"github.com/rameshsunkara/orders-sdk/internal/apiform"
+	"github.com/rameshsunkara/orders-sdk/internal/apiquery"
 )
 
 func getDefaultHeaders() map[string]string {
