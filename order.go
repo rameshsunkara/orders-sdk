@@ -13,6 +13,7 @@ import (
 
 	"github.com/rameshsunkara/orders-sdk/internal/apijson"
 	"github.com/rameshsunkara/orders-sdk/internal/apiquery"
+	shimjson "github.com/rameshsunkara/orders-sdk/internal/encoding/json"
 	"github.com/rameshsunkara/orders-sdk/internal/requestconfig"
 	"github.com/rameshsunkara/orders-sdk/option"
 	"github.com/rameshsunkara/orders-sdk/packages/param"
@@ -245,7 +246,7 @@ type OrderNewParams struct {
 }
 
 func (r OrderNewParams) MarshalJSON() (data []byte, err error) {
-	return json.Marshal(r.OrderInput)
+	return shimjson.Marshal(r.OrderInput)
 }
 func (r *OrderNewParams) UnmarshalJSON(data []byte) error {
 	return json.Unmarshal(data, &r.OrderInput)
@@ -258,7 +259,7 @@ type OrderUpdateParams struct {
 }
 
 func (r OrderUpdateParams) MarshalJSON() (data []byte, err error) {
-	return json.Marshal(r.OrderInput)
+	return shimjson.Marshal(r.OrderInput)
 }
 func (r *OrderUpdateParams) UnmarshalJSON(data []byte) error {
 	return json.Unmarshal(data, &r.OrderInput)
